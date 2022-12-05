@@ -1,3 +1,3 @@
 export default function Contact() {
-  return <p>Lexi Miller https://github.com/Leximiller128</p>;
+  return <p>Email: leximiller128@gmail.com Phone: 970-946-8336</p>;
 }

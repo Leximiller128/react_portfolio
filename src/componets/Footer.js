@@ -18,7 +18,7 @@ export default function Footer() {
     >
       <MDBContainer className="pt-4">
         <section className="mb-4">
-          <MDBBtn
+          {/* <MDBBtn
             rippleColor="dark"
             color="link"
             floating
@@ -28,7 +28,7 @@ export default function Footer() {
             role="button"
           >
             <MDBIcon fab className="fab fa-facebook-f" />
-          </MDBBtn>
+          </MDBBtn> */}
 
           <MDBBtn
             rippleColor="dark"
@@ -36,25 +36,25 @@ export default function Footer() {
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!https://www.facebook.com/tarotcard/"
+            href="https://twitter.com/Lexiincolorado"
             role="button"
           >
             <MDBIcon fab className="fa-twitter" />
           </MDBBtn>
 
-          <MDBBtn
+          {/* <MDBBtn
             rippleColor="dark"
             color="link"
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!https://twitter.com/search?q=%23tarot"
+            href="https://twitter.com/search?q=%23tarot"
             role="button"
           >
             <MDBIcon fab className="fa-google" />
-          </MDBBtn>
+          </MDBBtn> */}
 
-          <MDBBtn
+          {/* <MDBBtn
             rippleColor="dark"
             color="link"
             floating
@@ -64,7 +64,7 @@ export default function Footer() {
             role="button"
           >
             <MDBIcon fab className="fa-instagram" />
-          </MDBBtn>
+          </MDBBtn> */}
 
           <MDBBtn
             rippleColor="dark"
@@ -72,7 +72,7 @@ export default function Footer() {
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!https://www.instagram.com/explore/tags/tarotcards/?hl=en"
+            href="https://www.linkedin.com/in/leximiller128/"
             role="button"
           >
             <MDBIcon fab className="fa-linkedin" />
@@ -84,7 +84,7 @@ export default function Footer() {
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!"
+            href="https://github.com/Leximiller128"
             role="button"
           >
             <MDBIcon fab className="fa-github" />
