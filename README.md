@@ -12,7 +12,7 @@ For job searches and potential employeers to reference. Links to projects are on
 
 ## Example
 
-![alt text](./src/componets/assets/Screen%20Shot%202022-12-04%20at%2011.42.02%20PM.png)
+![alt text](./src/componets/assets/Screen%20Shot%202022-12-05%20at%2012.25.27%20AM.png)
 
 ### Contributors
 

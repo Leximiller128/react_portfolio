@@ -16,7 +16,7 @@ export default function Navbar() {
   const [showNavText, setShowNavText] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" light bgColor="light">
+    <MDBNavbar expand="lg" style={{ backgroundColor: "#BDFFC5" }}>
       <MDBContainer fluid>
         <Link to="/Aboutme">
           <MDBNavbarBrand>Lexi Miller</MDBNavbarBrand>
@@ -48,6 +48,11 @@ export default function Navbar() {
             <Link to="/Projects">
               <MDBNavbarItem>
                 <MDBNavbarLink>Projects</MDBNavbarLink>
+              </MDBNavbarItem>
+            </Link>
+            <Link to="/Resume">
+              <MDBNavbarItem>
+                <MDBNavbarLink>Resume</MDBNavbarLink>
               </MDBNavbarItem>
             </Link>
           </MDBNavbarNav>

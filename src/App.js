@@ -7,6 +7,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Aboutme from "./componets/Aboutme";
 import Contact from "./componets/Contact";
 import Projects from "./componets/Projects";
+import Resume from "./componets/Resume";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="*" element={<Aboutme />} />
+            <Route path="/Resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
