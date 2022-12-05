@@ -5,8 +5,8 @@ export default function Aboutme() {
   return (
     <MDBContainer>
       <MDBRow>
-        <MDBCol lg="4" md="12" className="mb-4">
-          <img src={require("./assets/IMG_0726.jpg")} className="img-fluid" />
+        <MDBCol lg="4" md="12" className="mb-4" center="center">
+          <img src={require("./assets/IMG_1229.jpg")} className="img-fluid" />
         </MDBCol>
       </MDBRow>
       I am a DU Fullstack Coding Bootcamp student from Boulder, CO. My previous

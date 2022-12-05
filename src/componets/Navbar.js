@@ -40,11 +40,6 @@ export default function Navbar() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </Link>
-            <Link to="/Contact">
-              <MDBNavbarItem>
-                <MDBNavbarLink>Contact</MDBNavbarLink>
-              </MDBNavbarItem>
-            </Link>
             <Link to="/Projects">
               <MDBNavbarItem>
                 <MDBNavbarLink>Projects</MDBNavbarLink>
@@ -53,6 +48,11 @@ export default function Navbar() {
             <Link to="/Resume">
               <MDBNavbarItem>
                 <MDBNavbarLink>Resume</MDBNavbarLink>
+              </MDBNavbarItem>
+            </Link>
+            <Link to="/Contact">
+              <MDBNavbarItem>
+                <MDBNavbarLink>Contact</MDBNavbarLink>
               </MDBNavbarItem>
             </Link>
           </MDBNavbarNav>

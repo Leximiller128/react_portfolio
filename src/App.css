@@ -2,6 +2,7 @@
   margin: 0px;
   padding: px;
   box-sizing: border-box;
+  color: white;
 }
 
 .outterdiv {
@@ -12,5 +13,5 @@
 
 .bodydiv {
   flex-grow: 1;
-  background-color: #83B0EB;
+  background-color: #83b0ebdf;
 }
