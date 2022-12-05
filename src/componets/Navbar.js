@@ -19,9 +19,7 @@ export default function Navbar() {
     <MDBNavbar expand="lg" light bgColor="light">
       <MDBContainer fluid>
         <Link to="/Aboutme">
-          {/* <MDBNavbarBrand> */}
-          Lexi Miller
-          {/* </MDBNavbarBrand> */}
+          <MDBNavbarBrand>Lexi Miller</MDBNavbarBrand>
         </Link>
         <MDBNavbarToggler
           type="button"
@@ -37,23 +35,19 @@ export default function Navbar() {
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
             <Link to="/Aboutme">
               <MDBNavbarItem>
-                {/* <MDBNavbarLink active aria-current="page"> */}
-                About Me
-                {/* </MDBNavbarLink> */}
+                <MDBNavbarLink active aria-current="page">
+                  About Me
+                </MDBNavbarLink>
               </MDBNavbarItem>
             </Link>
             <Link to="/Contact">
               <MDBNavbarItem>
-                {/* <MDBNavbarLink> */}
-                Contact
-                {/* </MDBNavbarLink> */}
+                <MDBNavbarLink>Contact</MDBNavbarLink>
               </MDBNavbarItem>
             </Link>
             <Link to="/Projects">
               <MDBNavbarItem>
-                {/* <MDBNavbarLink> */}
-                Projects
-                {/* </MDBNavbarLink> */}
+                <MDBNavbarLink>Projects</MDBNavbarLink>
               </MDBNavbarItem>
             </Link>
           </MDBNavbarNav>
