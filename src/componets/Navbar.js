@@ -16,7 +16,7 @@ export default function Navbar() {
   const [showNavText, setShowNavText] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" style={{ backgroundColor: "#BDFFC5" }}>
+    <MDBNavbar expand="lg" style={{ backgroundColor: "#4AD4C1" }}>
       <MDBContainer fluid>
         <Link to="/Aboutme">
           <MDBNavbarBrand>Lexi Miller</MDBNavbarBrand>
