@@ -8,7 +8,7 @@ This is the portfolio for Lexi Miller in React.
 
 ## Usage
 
-For job searches and potential employeers to reference.
+For job searches and potential employeers to reference. Links to projects are on projects page. Links to LinkedIn, GitHub and Twitter are on the footer.
 
 ## Example
 
