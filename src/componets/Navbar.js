@@ -10,6 +10,7 @@ import {
   MDBNavbarToggler,
   MDBCollapse,
 } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [showNavText, setShowNavText] = useState(false);
@@ -17,7 +18,11 @@ export default function Navbar() {
   return (
     <MDBNavbar expand="lg" light bgColor="light">
       <MDBContainer fluid>
-        <MDBNavbarBrand href="#">Navbar w/ text</MDBNavbarBrand>
+        <Link to="/Aboutme">
+          {/* <MDBNavbarBrand> */}
+          Lexi Miller
+          {/* </MDBNavbarBrand> */}
+        </Link>
         <MDBNavbarToggler
           type="button"
           data-target="#navbarText"
@@ -30,22 +35,28 @@ export default function Navbar() {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavText}>
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
-            <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" href="#">
-                Home
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href="#">Features</MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href="#">Pricing</MDBNavbarLink>
-            </MDBNavbarItem>
+            <Link to="/Aboutme">
+              <MDBNavbarItem>
+                {/* <MDBNavbarLink active aria-current="page"> */}
+                About Me
+                {/* </MDBNavbarLink> */}
+              </MDBNavbarItem>
+            </Link>
+            <Link to="/Contact">
+              <MDBNavbarItem>
+                {/* <MDBNavbarLink> */}
+                Contact
+                {/* </MDBNavbarLink> */}
+              </MDBNavbarItem>
+            </Link>
+            <Link to="/Projects">
+              <MDBNavbarItem>
+                {/* <MDBNavbarLink> */}
+                Projects
+                {/* </MDBNavbarLink> */}
+              </MDBNavbarItem>
+            </Link>
           </MDBNavbarNav>
-          <span className="navbar-text">
-            {" "}
-            Navbar text with an inline element{" "}
-          </span>
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
