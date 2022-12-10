@@ -9,8 +9,9 @@ export default function Aboutme() {
           <img src={require("./assets/IMG_3540.jpg")} className="img-fluid" />
         </MDBCol>
       </MDBRow>
-      I am a DU Fullstack Coding Bootcamp student from Boulder, CO. My previous
-      experience is in sales and I am looking for a job as a Sales Engineer.
+      I am an experienced Sales Manager in Boulder, CO. I have recently
+      completed a Fullstack Coding Bootcamp with Denver University. I am looking
+      for a job as a Sales Engineer in Boulder, CO or remote.
     </MDBContainer>
   );
 }

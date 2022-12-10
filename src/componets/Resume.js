@@ -1,6 +1,6 @@
 import { MDBBtn } from "mdb-react-ui-kit";
 import React from "react";
-import Pdf from "./assets/Lexi.pdf";
+import Pdf from "./assets/LexiResume.pdf";
 
 export default function Resume() {
   return (
