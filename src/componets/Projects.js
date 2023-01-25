@@ -1,33 +1,36 @@
 import React from "react";
-import { MDBBtn } from "mdb-react-ui-kit";
+import { MDBBtn, MDBRipple } from "mdb-react-ui-kit";
+import "./styles/projects.css";
 
 export default function Projects() {
   return (
     <>
-      <div />
-      Click to see project-->
-      <MDBBtn
-        className="buttons"
-        size="lg"
-        tag="a"
-        href="https://my-tarot-keeper.herokuapp.com/"
-        color="dark"
-        active
+      <MDBRipple
+        id="padding"
+        rippleTag="div"
+        className="sm-image hover-overlay hover-zoom hover-shadow"
       >
-        Project 3- Tarot Keeper
-      </MDBBtn>
-      <div />
-      Click to see project-->
-      <MDBBtn
-        className="buttons"
-        size="lg"
-        tag="a"
-        href="https://hi-blog-im-dad.herokuapp.com/"
-        color="secondary"
-        active
+        <img src={require("./assets/dad-joke-blog.png")} className="w-100" />
+        <a href="https://hi-blog-im-dad.herokuapp.com/login">
+          <div
+            className="mask"
+            style={{ backgroundColor: "rgba(57, 192, 237, 0.2)" }}
+          ></div>
+        </a>
+      </MDBRipple>
+      <MDBRipple
+        id="padding"
+        rippleTag="div"
+        className="sm-image hover-overlay hover-zoom hover-shadow"
       >
-        Project 2- Hi Blog, I'm Dad!
-      </MDBBtn>
+        <img src={require("./assets/tarot-keeper.png")} className="w-100" />
+        <a href="https://my-tarot-keeper.herokuapp.com/">
+          <div
+            className="mask"
+            style={{ backgroundColor: "rgba(57, 192, 237, 0.2)" }}
+          ></div>
+        </a>
+      </MDBRipple>
     </>
   );
 }

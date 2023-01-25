@@ -1,0 +1,12 @@
+.w-100 {
+    width: 30% !important;
+}
+
+img {
+    flex: auto;
+}
+
+#padding{
+    padding-left: 40%;
+    padding-top: 1%;
+}
