@@ -31,6 +31,19 @@ export default function Projects() {
           ></div>
         </a>
       </MDBRipple>
+      <MDBRipple
+        id="padding"
+        rippleTag="div"
+        className="sm-image hover-overlay hover-zoom hover-shadow"
+      >
+        <img src={require("./assets/national-parks.png")} className="w-100" />
+        <a href="https://leximiller128.github.io/project-1-National-Parks-R-US/">
+          <div
+            className="mask"
+            style={{ backgroundColor: "rgba(57, 192, 237, 0.2)" }}
+          ></div>
+        </a>
+      </MDBRipple>
     </>
   );
 }
