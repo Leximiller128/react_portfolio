@@ -29,7 +29,7 @@ export default function Footer() {
           >
             <MDBIcon fab className="fab fa-facebook-f" />
           </MDBBtn> */}
-
+          {/* 
           <MDBBtn
             rippleColor="dark"
             color="link"
@@ -40,7 +40,7 @@ export default function Footer() {
             role="button"
           >
             <MDBIcon fab className="fa-twitter" />
-          </MDBBtn>
+          </MDBBtn> */}
 
           {/* <MDBBtn
             rippleColor="dark"
