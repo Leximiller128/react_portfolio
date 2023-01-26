@@ -2,4 +2,6 @@
 .img{
     min-height: 500px;
     max-height: 550px;
+    justify-content: center;
 }
+
