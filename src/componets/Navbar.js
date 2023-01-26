@@ -11,12 +11,13 @@ import {
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
+import "./styles/header.css";
 
 export default function Navbar() {
   const [showNavText, setShowNavText] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" style={{ backgroundColor: "#4AD4C1" }}>
+    <MDBNavbar expand="lg" dark style={{ backgroundColor: "#4AD4C1" }}>
       <MDBContainer fluid>
         <Link to="/Aboutme">
           <MDBNavbarBrand>Lexi Miller</MDBNavbarBrand>
