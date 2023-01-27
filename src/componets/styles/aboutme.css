@@ -1,7 +1,11 @@
 
-.img{
-    min-height: 500px;
-    max-height: 550px;
-    justify-content: center;
+img{
+   max-width: auto;
+   max-height: auto;
+   padding-top: 10px;
+    flex: auto;
+    display:inherit;
+    padding-right: 150px;
 }
+
 
