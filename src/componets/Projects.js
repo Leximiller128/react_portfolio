@@ -1,10 +1,10 @@
 import React from "react";
-import { MDBBtn, MDBRipple } from "mdb-react-ui-kit";
+import { MDBBtn, MDBContainer, MDBRipple } from "mdb-react-ui-kit";
 import "./styles/projects.css";
 
 export default function Projects() {
   return (
-    <>
+    <MDBContainer>
       <MDBRipple
         id="padding"
         rippleTag="div"
@@ -44,6 +44,6 @@ export default function Projects() {
           ></div>
         </a>
       </MDBRipple>
-    </>
+    </MDBContainer>
   );
 }

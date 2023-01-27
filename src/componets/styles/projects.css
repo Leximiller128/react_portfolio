@@ -2,26 +2,24 @@
     width: 30% !important;
 }
 
-img {
-    flex: auto;
-}
 
 #padding{
-    padding-left: 40%;
+    padding-left: 30%;
 }
 
-@media (max-width:950px) {
+@media (max-width:1000px) {
     img {
         min-width: 100%;
         min-height: 100%;
         place-items: center;
+        padding-right: 30%;
     }
 }
 
-@media (min-width:951px) {
+@media (min-width:1001px) {
     img {
-        min-width: 80%;
-        min-height: 80%;
+        min-width: 50%;
+        min-height:50%;
         place-items: center;
     }
 }
