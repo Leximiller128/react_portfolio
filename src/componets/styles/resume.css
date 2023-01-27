@@ -1,16 +1,31 @@
 .w-100 {
     width: 30% !important;
+
 }
 
 img {
     flex: auto;
-    @media @900 {
-        flex: grow; 
+
+    padding-right: 150px;
+}
+
+@media (max-width:950px) {
+    img {
+        min-width: 100%;
+        min-height: 100%;
     }
 }
 
+@media (min-width:950px) {
+    img {
+        min-width: 40%;
+        min-height: 40%;
+    }
+}
+
+
 #padding{
-    padding-left: 40%;
+  
     padding-top: 5%;
     padding-bottom: 5%;
 }

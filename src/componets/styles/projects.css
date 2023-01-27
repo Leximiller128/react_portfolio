@@ -8,5 +8,20 @@ img {
 
 #padding{
     padding-left: 40%;
-    padding-top: 1%;
+}
+
+@media (max-width:950px) {
+    img {
+        min-width: 100%;
+        min-height: 100%;
+        place-items: center;
+    }
+}
+
+@media (min-width:951px) {
+    img {
+        min-width: 80%;
+        min-height: 80%;
+        place-items: center;
+    }
 }
