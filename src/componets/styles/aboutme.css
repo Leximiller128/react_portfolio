@@ -1,0 +1,22 @@
+.img-fluid {
+        width: 50px;
+        height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%
+}
+
+p {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 70%;
+}
+
+.mb-4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+}
