@@ -93,10 +93,15 @@ function Contact() {
           </MDBRow>
           <MDBRow>
             <div className="contact-info">
-              <p>Contact Me:</p>
-              <p>Lexi Miller</p>
-              <p>leximiller128@gmail.com</p>
-              <p>Boulder, CO</p>
+              <div id="contact">
+                <a>Contact Me:</a>
+                <br></br>
+                <a>Lexi Miller</a>
+                <br></br>
+                <a>leximiller128@gmail.com</a>
+                <br></br>
+                <a>Boulder, CO</a>
+              </div>
               <a
                 className="email"
                 href="leximiller128@gmail.com"
